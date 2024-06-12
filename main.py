@@ -61,13 +61,10 @@ naval_chat_bot = App()
 
 # Add tools to the app
 naval_chat_bot.add(
-    "web_page", "https://tw.linebiz.com/column/LINEOA-2023-Price-Plan/")
+    "web_page", "https://landp.kcg.gov.tw/qa.php?nid=60&act=search&src=61")
 
 naval_chat_bot.add(
-    "web_page", "https://tw.linebiz.com/column/stepmessage/")
-
-naval_chat_bot.add(
-    "web_page", "https://tw.linebiz.com/column/LAP-Maximize-OA-Strategy/")
+    "web_page", "https://landp.kcg.gov.tw/qa.php?nid=60&act=search&src=110")
 
 
 @app.post("/callback")
